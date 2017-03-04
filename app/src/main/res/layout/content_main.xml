@@ -9,9 +9,56 @@
     tools:context="com.example.anku.jeetcuisine.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <android.support.v4.view.ViewPager
-        android:id ="@+id/view_pager"
-        android:layout_height="160dp"
-        android:layout_width="match_parent">
-    </android.support.v4.view.ViewPager>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id ="@+id/view_pager"
+                android:layout_height="160dp"
+                android:layout_width="match_parent">
+            </android.support.v4.view.ViewPager>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/intro1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/intro2"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/intro3"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/intro4"
+                android:textSize="18sp"
+                android:textAlignment="center"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_us"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

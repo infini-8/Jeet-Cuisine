@@ -9,4 +9,12 @@
     <string name="Image">Image</string>
     <string name="android_studio">Android Studio</string>
     <string name="android_studio_android_com">android.studio@android.com</string>
+    <string name="intro1">Welcome to Jeet Cuisine</string>
+    <string name="intro2">-A Real Diammond of Catering Industry</string>
+    <string name="intro3">Looking for a perfect food affair to complement your special occasion?</string>
+    <string name="intro4">Look no further! Jeet Cuisine provide a sumptuous food itinerary to fulfill your
+        each and every catering need. Be it a large, mid or small sized event,
+        our gull-range of outdoor and indoor catering service cover complete food preparation and presentation
+        for formal and informal gatherings.</string>
+    <string name="about_us">About Us</string>
 </resources>
